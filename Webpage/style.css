@@ -1,0 +1,35 @@
+body{
+    background-color: lightskyblue;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 50px 10px 50px ;
+    margin:20px 200px 20px 200px;
+}
+.form-control{
+    display:flex;
+    justify-items: start;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px 0px 10px 0px;
+}
+input[type =text], input[type =number] ,select{
+    font-size: 13px;
+    height: 40px;
+}
+
+.form-control #recomand , #favor{
+    font-size:15px;
+}
+
+button{
+    margin: 10px 0px 0px 0px;
+}
+

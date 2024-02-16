@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lamp ligthing</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onclick="toggleBtn()" id="btn"><span></span></button>
+        <div class="lamp__container">
+            <img src="phil-desforges-KP7p0-DRGbg-unsplash-removebg-preview.png" alt="" class="lamp">
+            <!-- <img src="images.jpeg" alt="" class="light" id="light"> -->
+            <p class="light" id="light"></p>
+            <div class="message" id="message">
+                <p>Hello friends</p>
+            </div>
+        </div>
+    </div>
+<script>
+   let btn = document.querySelector("#btn");
+let light = document.querySelector("#light");
+
+function toggleBtn(){
+    btn.classList.toggle("active");
+    light.classList.toggle("on");
+    message.classList.toggle("on");
+}
+</script>
+</body>
+</html>

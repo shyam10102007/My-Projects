@@ -1,0 +1,47 @@
+/* Navigation bar */
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar::before {
+    height: 20%;
+}
+/* home- section*/
+
+#home {
+    text-align: center;
+    height: 40px;
+}
+#home::before {
+    height: 70%;
+}
+.h-primary {
+    font-size: 25px;
+    padding: 5px;
+}
+#home p {
+    font-size: 15px;
+}
+/* service section */
+#services {
+    display: flex;
+    flex-direction: column;
+}
+.service-container h1 {
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.box .h-secondary {
+    font-size: 25px;
+}
+.box p {
+   font-size: 15px;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    background: #0d1b2a;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+.btn{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    background: #4e777b;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s ease ;
+}
+
+.btn span{
+    display: block;
+    background: #03071e;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s ease, margin-left 0.5s ;
+}
+
+.lamp__container{
+    position: absolute;
+    top: px;
+    left: 40%;
+    width: 200px;
+}
+
+.lamp{
+    width: 100%;
+    z-index: 99;
+}
+
+.light{
+background-color: yellow;
+width: 500px;
+height: 500px;
+border-radius: 20px 20px 0px 0px ;
+margin: -141px 0px 0px 100px;
+transform: translateX(-50%);
+opacity: 0;
+position: absolute;
+transition: opacity 2.0s; 
+    color:white;
+    /* top: 0%;c */
+    /* left: 0%; */
+    /* width: 600px; */
+    clip-path: polygon(42% 0, 58.5% 0, 100% 100%, 0% 100%);
+   
+}
+.message {
+    font-size: 30px;
+transform: translateX(15%);
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+position: absolute;
+transition: opacity 0.4s; 
+color:white;
+transition: opacity 2.0s; 
+}
+
+.active{
+    background: #84a98c;
+}
+
+.active span{
+    background: #ffe6a7;
+    margin-left: 31px;
+}
+
+.on{
+    opacity: 0.5;
+}

@@ -1,0 +1,143 @@
+body {
+    margin: 100px;
+    background-color: rgb(251, 37, 37);
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.Shivaji_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://latestforyouth.com/wp-content/uploads/2023/05/shivaji-maharaj-5237.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+    text-align: justify;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+        'part_1 part_1 part_1 part_1'
+        'part_2 part_2 part_2 part_2'
+        'part_3 part_3 part_3 part_3'
+        'part_4 part_4 part_4 part_4'
+        'part_5 part_5 part_5 part_5'
+        'part_6 part_6 part_6 part_6'
+        'part_7 part_7 part_7 part_7';
+}
+
+#part_1 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_1;
+    display: grid;
+    grid-template-areas:
+        'p_1_1 p_1_1 p_1_2 p_1_2';
+
+}
+
+#part_1 .p_1_1 {
+    grid-area: p_1_1;
+    margin: 20px 50px 20px 0px;
+}
+
+#part_1 .p_1_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-top: 40px;
+    height: 250px;
+    width: 400px;
+    background-image: url(https://im.indiatimes.in/content/2023/Feb/shivaji_63f1bb3cb3ff2.jpg);
+    background-size: cover;
+}
+
+#part_2 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_2;
+}
+
+#part_3 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_3;
+}
+
+#part_4 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_4;
+}
+
+#part_5 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_5;
+    display: grid;
+    grid-template-areas:
+        'p_5_1 p_5_1 p_5_4 p_5_4'
+        'p_5_2 p_5_2 p_5_4 p_5_4'
+        'p_5_3 p_5_3 p_5_3 p_5_3';
+}
+
+#part_5 .p_5_1 {
+    grid-area: p_5_1;
+    margin: 0px 50px 0px 0px;
+}
+
+#part_5 .p_5_2 {
+    grid-area: p_5_2;
+    margin: -335px 50px 0px 0px;
+}
+
+#part_5 .p_5_3 {
+    grid-area: p_5_3;
+    /* margin: 20px 50px 20px 20px ; */
+}
+
+#part_5 .p_5_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    /* border-radius: 200px; */
+    margin-top: 80px;
+    height: 550px;
+    width: 500px;
+    background-image: url(https://static.sanatan.org/wp-content/uploads/sites/6/2021/03/13180406/shivaji-maharaj-afajal-khan-vadh.jpg);
+    background-size: cover;
+}
+
+#part_6 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_6;
+}
+
+#part_7 {
+    border: 2px solid black;
+    padding: 10px;
+    grid-area: part_7;
+}
+
+section p {
+    font-size: 15px;
+    font-weight: 540;
+}

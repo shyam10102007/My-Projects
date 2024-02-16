@@ -1,0 +1,156 @@
+/* This is a CSS code that defines the styling for a webpage. It sets the background image, font
+family, and positioning of various elements such as the logo, navigation menu, and login form. It
+also defines the styles for buttons, headings, and input fields. The code is organized into
+different selectors such as body, .left, .center, .right, .btn, .container, h1, .from-group, and
+.loginbtn, each with their own set of properties and values. */
+
+/* CSS reset */
+body {
+    /* color:rgb(46, 12, 199); */
+    /* background: url('https://www.shutterstock.com/image-photo/gym-interior-free-space-your-260nw-1532086055.jpg'); */
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1480px;
+    font-family: 'Righteous', cursive;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    /* background-color: red;
+    border: 2px solid yellow; */
+    display: inline-block;
+    width: 25%;
+}
+
+.left img {
+    width: 50%;
+    height: 50%;
+}
+
+#logotext {
+    color: black;
+    margin-left: -24px;
+    display:block
+}
+
+.center {
+    background-color: black(15, 186, 244);
+    border: 3px solid black;
+    border-radius: 40px;
+    display: block;
+    height: 30px;
+    width: 45%;
+    text-align: center;
+    margin: 46px auto;
+}
+
+.center ul {
+    overflow: auto;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.center ul li {
+    float: left;
+    ;
+    list-style: none;
+    overflow: auto;
+    margin-left: 25px;
+}
+
+.center ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    overflow: auto;
+    /* padding:5px 6px; */
+}
+
+ul li a:hover,
+ul li a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+.right {
+    background-color: black(15, 186, 244);
+    /* border: 2px solid black ; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    /* background-color:black(15, 186, 244) ; */
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+    width: 90px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:active,.btn:hover {
+    background-color: green;
+    color: white;
+}
+/* second CSS style only for container class and its id  */
+.container {
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 21%;
+    margin-top: 90px;
+    margin-left: 60px;
+    /* margin: 100px ,45px; */
+    padding: 7px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+.from-group {
+    color: black;
+    margin: 3px 66px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.from-group input {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.loginbtn {
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: rgb(26, 3, 3);
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 4px;
+    width: 70px;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 48px;
+}
+
+.loginbtn:hover {
+    background-color: green;
+}

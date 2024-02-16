@@ -1,0 +1,27 @@
+/* @media screen and (width < 1330px){
+    .header{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items:first baseline;
+        z-index: 100;
+    }
+    .header
+    .logo a {
+        position: relative;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: default;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+    }
+
+    .navbar{
+        /* display: flex;
+        flex-direction: column; */
+    }
+} */

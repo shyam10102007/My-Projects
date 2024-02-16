@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Webpage including form</title>
+</head>
+<body>
+    <form id="form">
+        <h1>This is a webpage incuding forms</h1>
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-control">
+            <label for="Age">Age</label>
+            <input type="number" id="Age" placeholder="Enter your age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="lable-role">What is your role</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+
+
+        <div class="form-control">
+            <label>Would you recomand this website</label>
+                <label for="recomand-1" id="recomand"><input type="radio" name="recomand" id="recomand-1">Yes</label>
+                <label for="recomand-2" id="recomand"><input type="radio" name="recomand" id="recomand-2">NO</label>
+                <label for="recomand-3" id="recomand"><input type="radio" name="recomand" id="recomand-3">Maybe</label>
+        </div>
+
+        <div class="form-control">
+            <label >Language and framework know
+                <small>(check all that apply)</small>
+            </label>
+            <label for="int-1" id="favor"><input type="checkbox" id="inp">C</input></label>
+            <label for="int-2" id="favor"><input type="checkbox" id="inp">C#</input></label>
+            <label for="int-3" id="favor"><input type="checkbox" id="inp">C++</input></label>
+            <label for="int-4" id="favor"><input type="checkbox" id="inp">Java</input></label>
+            <label for="int-5" id="favor"><input type="checkbox" id="inp">Python</input></label>
+            <label for="int-6" id="favor"><input type="checkbox" id="inp">R</input></label>
+            <label for="int-7" id="favor"><input type="checkbox" id="inp">React</input></label>
+            <label for="int-8" id="favor"><input type="checkbox" id="inp">angular</input></label>
+            <label for="int-8" id="favor"><input type="checkbox" id="inp">Django</input></label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comments"></textarea>
+        </div>
+
+        <div class="form-control">
+            <button id="submit" value="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
